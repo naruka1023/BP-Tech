@@ -1,0 +1,129 @@
+.addressText{
+    font-family: 'calibri';
+    color: white;
+    font-size: 2em;
+    line-height: 1.7em;
+}
+.map{
+    position:relative;
+    height:140vh;
+    width:200vw;
+}
+@font-face {
+    font-family:'Tw Cen MT Bold';
+    src: url('fonts/Tw Cen MT Bold.ttf');
+}
+@font-face {
+    font-family:'RSU_Regular';
+    src: url('fonts/RSU_Regular.ttf');
+}
+@font-face {
+    font-family:'CalibriBold';
+    src: url('fonts/Calibri Bold.ttf');
+}
+@font-face {
+    font-family:'Tw Cen MT Bold';
+    src: url('fonts/Tw Cen MT Bold.ttf');
+}
+@font-face {
+    font-family:'ElectroShackle';
+    src: url('fonts/Electro Shackle.otf');
+}
+#energyManagementLabel{
+    font-family: 'ElectroShackle';
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 28.2%;
+    color: white;
+    font-size: 12em;
+    letter-spacing: 0.2em;
+    z-index:5;
+}
+.partnerPics{
+    padding: 0 5em 0 5em;
+    max-width: 40em;
+}
+.map > img{
+    position:absolute; 
+    display:none;
+    z-index:1;
+}
+#firstImage{
+    z-index:5;
+    position:absolute;
+    display:unset
+}
+#area1{
+    color:blue;
+}
+.area{
+    color:green
+}
+.border{
+    background-image: linear-gradient(to right, #67BC3C , #00A846);
+    padding:20px;
+}
+.title{
+    font-family: 'ElectroShackle';
+    text-align: center;
+    margin: 2em 0 1.4em 0;
+    font-size: 7.1em;
+    color: #00A946;
+}
+.partnerTitle{
+    text-align: center;
+    margin-top:3em;
+    font-size:5em;
+    font-weight:600;
+    margin-bottom:2.5em;
+    font-family:'Tw Cen MT Bold';
+}
+body{
+    overflow-x:hidden
+}
+.energyLabel{
+    margin-top: 0.5em;
+    font-size: 3.5em;
+    font-family: 'RSU_Regular';
+}
+.icon{
+    height:25%;
+    width:25%
+}
+.entity{
+    text-align:center;
+    display:flex
+}
+#energyLabel{
+    font-family: 'ElectroShackle';
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    color: white;
+    font-size: 12em;
+    letter-spacing: 0.2em;
+}
+.iconLabel{
+    font-size: 3.4em;
+    margin-top: 1.6em;
+    font-family:'Tw Cen MT Bold';
+    padding-left:3em;
+    color: white;
+    text-align: left;
+}
+.threeLine{
+    margin-top:0.2em
+}
+.partners{
+    float:left
+}
+.stackedText{
+    position: absolute;
+    font-size: 12em;
+    width: 100%;
+    color:white;
+    text-align: center;
+    line-height:83px;
+    top: 39%;            
+}
