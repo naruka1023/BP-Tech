@@ -236,7 +236,7 @@
         }
         $(document).ready(function(){
             document.body.style.zoom="50%"
-            $("#area1, #area2, #area3, #area4, #area5").mouseenter(myFunction)
+            $("#area1, #area2, #area3, #area4, #area5").click(myFunction)
             $("#area1, #area2, #area3, #area4, #area5").mouseleave(function(){
                 id = $(this).attr('id');
                 // document.getElementById(id).removeEventListener("mouseenter", myFunction);
