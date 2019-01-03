@@ -6,8 +6,8 @@
 }
 .map{
     position:relative;
-    height:140vh;
-    width:200vw;
+    background-image:url(images/00/00_illus-0.jpg);
+    height:1376px;
 }
 @font-face {
     font-family:'Tw Cen MT Bold';
@@ -48,11 +48,17 @@
     position:absolute; 
     display:none;
     z-index:1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 }
 #firstImage{
     z-index:5;
     position:absolute;
-    display:unset
+    display:unset;
+}
+#secondImage, #thirdImageLabel{
+    display:unset;
 }
 #area1{
     color:blue;
