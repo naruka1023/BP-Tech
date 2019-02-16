@@ -1,13 +1,22 @@
+@-moz-document url-prefix() {
+    #mainImage {
+      width: 100vw;
+    }
+}
+body{
+    -moz-transform:  scale(0.5,0.5);
+    -moz-transform-origin: left center;
+}
 .addressText{
     font-family: 'calibri';
     color: white;
-    font-size: 2em;
+    font-size: 0.85em;
     line-height: 1.7em;
 }
 .map{
     position:relative;
     background-image:url(images/00/00_illus-0.jpg);
-    height:1376px;
+    height:687px;
 }
 @font-face {
     font-family:'Tw Cen MT Bold';
@@ -32,17 +41,18 @@
 #energyManagementLabel{
     font-family: 'ElectroShackle';
     position: absolute;
-    top: 30%;
+    top: 40%;
     text-align: center;
-    left: 28.2%;
+    left: 39%;
     color: white;
-    font-size: 12em;
+    font-size: 3em;
     letter-spacing: 0.2em;
     z-index:5;
 }
 .partnerPics{
     padding: 0 5em 0 5em;
-    max-width: 40em;
+    max-width: 25em;
+    opacity: 0.5;
 }
 .map > img{
     position:absolute; 
@@ -68,21 +78,21 @@
 }
 .border{
     background-image: linear-gradient(to right, #67BC3C , #00A846);
-    padding:20px;
+    padding: 12px;
 }
 .title{
     font-family: 'ElectroShackle';
     text-align: center;
-    margin: 2em 0 1.4em 0;
-    font-size: 7.1em;
+    margin: 1.5em 0 1.4em 0;
+    font-size: 4.4em;
     color: #00A946;
 }
 .partnerTitle{
     text-align: center;
-    margin-top:3em;
-    font-size:5em;
+    margin-top: 1.5em;
+    font-size: 3em;
     font-weight:600;
-    margin-bottom:2.5em;
+    margin-bottom: 1.5em;
     font-family:'Tw Cen MT Bold';
 }
 body{
@@ -90,12 +100,12 @@ body{
 }
 .energyLabel{
     margin-top: 0.5em;
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-family: 'RSU_Regular';
 }
 .icon{
-    height:25%;
-    width:25%
+    height: 17%;
+    width: 35%;
 }
 .entity{
     text-align:center;
@@ -104,22 +114,23 @@ body{
 #energyLabel{
     font-family: 'ElectroShackle';
     position: absolute;
-    top: 40%;
-    left: 39%;
+    top: 47%;
+    left: 42%;
     color: white;
-    font-size: 12em;
+    font-size: 3em;
     letter-spacing: 0.2em;
 }
 .iconLabel{
-    font-size: 3.4em;
-    margin-top: 1.6em;
+    font-size: 1.8em;
+    margin-top: 13.9%;
     font-family:'Tw Cen MT Bold';
     padding-left:3em;
     color: white;
     text-align: left;
+    display: block;
 }
 .threeLine{
-    margin-top:0.2em
+    margin-top: 1.3em;
 }
 .partners{
     float:left
