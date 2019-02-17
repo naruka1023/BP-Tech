@@ -1,12 +1,9 @@
-@-moz-document url-prefix() {
+/* @-moz-document url-prefix() {
     #mainImage {
       width: 100vw;
     }
-}
-body{
-    -moz-transform:  scale(0.5,0.5);
-    -moz-transform-origin: left center;
-}
+} */
+
 .addressText{
     font-family: 'calibri';
     color: white;
