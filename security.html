@@ -5,12 +5,22 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/01/icon.PNG">
     </head>
     <body>
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div><a href="energy.html">Energy</a></div>
+                    <div><a href="energyManagement.html">Energy Management</a></div>
+                    <div><a href="automation.html">Automation</a></div>
+                    <div><a href="security.html">Security</a></div>
+                    <div><a href="agricultureTechnologies.html">Agriculture Technologies</a></div>
+                  </div>
         <div class="heading" style="font-size: 1.3em;font-family:ElectroShackle;padding: 2em 0px 4em 0;">
-            <div class="col-md-offset-1 col-md-2">
-                <a href="index.html"><img class='logo' src="./images/01/logo.png" style=" width: 60%; vertical-align: middle; "></a>
-            </div>
+                <div class="col-md-offset-1 col-md-2" style='display:flex; justify-content:space-between'>
+                    <div><a href="index.html"><img class='logo' src="./images/01/logo.png" style=" width: 60%; vertical-align: middle; "></a></div>
+                    <div class='navigationMobile' style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
+                </div>
             <div class="navigation col-md-8" style="padding-top: 0.5em;display: inline-flex;justify-content: space-evenly;">
                 <div><a href="energy.html">Energy</a></div>
                 <div><a href="energyManagement.html">Energy Management</a></div>
@@ -202,6 +212,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script>
+                        function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
         </script>
     
     

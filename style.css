@@ -10,6 +10,9 @@
     font-size: 0.85em;
     line-height: 1.7em;
 }
+.navigationMobile{
+    display:none
+}
 .map{
     position:relative;
     background-image:url(images/00/00_illus-0.jpg);
@@ -46,6 +49,40 @@
     letter-spacing: 0.2em;
     z-index:5;
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 34px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'RSU_Regular';
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}  
 .partnerPics{
     padding: 0 5em 0 5em;
     max-width: 25em;
@@ -260,6 +297,11 @@ body{
     }
 }
 @media screen and (max-width: 800px) {
+    .navigationMobile{
+        display:unset !important;
+        padding-right: 1em;
+    
+    }
     #aboutText{
         width: 34.5em !important;
         font-size: 1.1em !important;
@@ -310,8 +352,11 @@ body{
         padding-bottom: 75px !important
     }
     .heading{
+        position: relative;
         padding: 1.5em 0 1.5em 0 !important;
-        margin-left:40px
+        padding-left: 40px !important;
+        background-color: white;
+        width: -webkit-fill-available;
     }
     .heading>div{
         padding-left:0 !important
@@ -334,7 +379,7 @@ body{
         padding:11px;
     }
     .logo{
-        width:24% !important
+        width:36% !important
     }
     .imageset{
         display:unset !important;
