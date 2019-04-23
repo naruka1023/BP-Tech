@@ -97,13 +97,14 @@ body{
 }
 .energyLabel{
     margin-top: 0.5em;
-    font-size: 2.5em;
+    font-size: 0.95em;
     font-family: 'RSU_Regular';
 }
 .icon{
     height: 17%;
     width: 35%;
 }
+
 .entity{
     text-align:center;
     display:flex
@@ -140,4 +141,245 @@ body{
     text-align: center;
     line-height:83px;
     top: 39%;            
+}
+.mobilePartners{
+    display:none;
+}
+@media screen and (max-width:1440px) and (min-width: 800px){
+    .webPartners{
+        display:none !important
+    }
+    #autoLabel{
+        width:350px !important
+    }
+    .mobilePartners{
+        display: unset !important
+    }
+    .navigation{
+        font-size:0.8em
+    }
+    .map{
+        display:none
+    }
+    .titleGreen{
+        font-size:1.5em !important
+    }
+    #customMade{
+        margin-bottom:13em !important
+    }
+    .borderLaptop{
+        display:none
+    }
+    #shiftedFrame{
+        margin-left:17em !important
+    }
+    #shiftedLabel{
+        width:42.4% !important
+    }
+    
+    .outerframe{
+        margin: 0px 25em 10em 25em !important
+    }
+    .shiftedOuterFrame{
+        margin: 0px 10em 10em 10em !important
+    }
+    .emImg{
+        width:222px !important
+    }
+    #about{
+        padding-left:4em !important
+    }
+    .energyLabel{
+        font-size:1.2em !important
+    }
+    .energyLabel2{
+        font-size:0.8em !important
+    }
+    .elSec{
+        font-size:1.1em !important
+    }
+    /* #huawei{
+        max-width: 14.5em !important
+    }
+    #siemens{
+        max-width: 22.8em !important
+    }
+    .partnerPics{
+        max-width:18em !important
+    }
+     */
+    .iconLabel{
+        font-size:1.2em !important
+    }
+}
+@media screen and (max-width: 1024px) {
+    #aboutText{
+        width: 19.6em !important;
+        font-size: 1em !important;
+    }
+    .navigation{
+        font-size:0.6em
+    }
+    #energyManagementLabel{
+        top:37% !important;
+        left:31.6% !important
+    }
+    #automationText{
+        top: 45% !important;
+        left: 33.5% !important;
+    }
+    #energyLabel{
+        top:41%;
+        left:38.6%
+    }
+    .elSec{
+        width:220px !important;
+        font-size:1em !important
+    }
+    #shiftedFrame{
+        margin-left:13.5em !important
+    }
+    .iconLabel{
+        font-size:1em !important
+    }
+    .outerframe{
+        margin:0px 11em 10em 11em !important
+    }
+}
+@media screen and (max-width: 800px) {
+    .webPartners{
+        display:none;
+    }
+    .mobilePartners{
+        display:unset;
+    }
+    .partnerPics{
+        max-width:15em;
+        padding: 0 25px
+    }
+    #atLabel{
+        width:unset !important
+    }
+    .securityQuickFix{
+        font-size:1.2em
+    }
+    .atPic{
+        padding-right:0px;
+    }
+    #innerFrame{
+        padding:40px !important
+    }
+    .energyLabel{
+        width:unset !important
+    }
+    .map {
+        display:none
+    }
+    .ovtl{
+        margin-left:40px !important;
+        text-align:unset !important;
+    }
+    #paddingOffset{
+        padding:unset !important;
+        padding-top: 75px !important;
+        padding-bottom: 75px !important
+    }
+    .heading{
+        padding: 1.5em 0 1.5em 0 !important;
+        margin-left:40px
+    }
+    .heading>div{
+        padding-left:0 !important
+    }
+    .justify div div{
+        padding-bottom:30px;
+    }
+    .addressText{
+        padding-left:unset !important;
+    }
+    .paddings div{
+        padding-bottom:30px;
+    }
+    .justify{
+        margin-top: unset !important;
+        padding-bottom:51px !important;
+    }
+    .iconLabel{
+        font-size:0.8em !important;
+        padding:11px;
+    }
+    .logo{
+        width:24% !important
+    }
+    .imageset{
+        display:unset !important;
+        justify-content:unset !important
+    }
+    .imageset .image{
+        margin: 0 40px
+    }
+    .footer{
+        padding:40px !important;
+        margin:unset;
+        font-size:1.4em
+    }
+    .something{
+        padding:4px !important;
+    }
+    .something2{
+        margin-top:1em !important 
+    }
+    .mainImage{
+        height:32vh !important
+    }
+    #energyLabel{
+        top: 39% !important;
+        left: 37% !important;
+    }
+    .contacts{
+        top:3.5em !important
+    }
+    .bptechpic{
+        height:24vh !important
+    }
+    .imageset div img{
+        width:100% !important
+    }
+    .emServices{
+        padding: 40px !important
+    }
+    .outerframe{
+        margin:unset !important;
+        margin-bottom:30px !important
+    }
+    .navigation{
+        display:none !important
+    }
+    .mobilePartners div{
+        margin-bottom: unset !important;
+        padding-bottom: 32px!important;
+    }
+    #huawei{
+        max-width:9em !important;
+    }
+
+    #paddingImage{
+        padding-left:40px
+    }
+    #siemens{
+        min-width:unset !important
+    }
+    .appdPic{
+        width:100% !important;
+        padding-right: 40px
+    }
+    #automationText{
+        left:30.2% !important;
+        right:38% !important
+    }
+    #energyManagementLabel{
+        top:37%;
+        left:29%;
+        font-size:2.5em
+    }
 }

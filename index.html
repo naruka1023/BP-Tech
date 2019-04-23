@@ -9,11 +9,11 @@
     </head>
     <body>
         
-    <div class="row" style="font-size: 1.3em;font-family:ElectroShackle;padding: 1em 0px 1em 0;">
+    <div class="heading" style="font-size: 1.3em;font-family:ElectroShackle;padding: 2em 0px 4em 0;">
         <div class="col-md-offset-1 col-md-2">
-            <a href="index.html"><img src="./images/01/logo.png" style=" width: 60%; vertical-align: middle; "></a>
+            <a href="index.html"><img class='logo' src="./images/01/logo.png" style=" width: 60%; vertical-align: middle; "></a>
         </div>
-        <div class=" col-md-8" style="padding-top: 0.5em;display: inline-flex;justify-content: space-evenly;">
+        <div class="navigation col-md-8" style="padding-top: 0.5em;display: inline-flex;justify-content: space-evenly;">
             <div><a href="energy.html">Energy</a></div>
             <div><a href="energyManagement.html">Energy Management</a></div>
             <div><a href="automation.html">Automation</a></div>
@@ -51,18 +51,18 @@
             </map>
         </div>
         <div class="border"></div>
-        <div style="margin: 70px 25em 20em 25em;">
+        <div id='customMade' class='outerframe' style="margin: 70px 25em 20em 25em;">
             <div class="title">ENERGY</div>
-            <div style="display: flex; justify-content: space-between;">
-                <div>
+            <div class='imageset' style="display: flex; justify-content: space-between;">
+                <div class='image'>
                     <img style="width: 80%;" src="./images/01/01_picture_energy-1.jpg">
                     <div class="energyLabel">Mounting Inverter</div>
                 </div>
-                <div>
+                <div class='image'>
                     <img style="width: 80%;" src="./images/01/01_picture_energy-2.jpg">
                     <div class="energyLabel">Working</div>
                 </div>
-                <div>
+                <div class='image'>
                     <img style="width: 80%;" src="./images/01/01_picture_energy-3.jpg">
                     <div class="energyLabel">Construction</div>
                 </div>
@@ -72,8 +72,7 @@
                 <div class="row">
                     <div class="title" style="color:white">SERVICES</div>
                 </div>
-                <div class="row">
-                    <div class="col-md-offset-1 col-md-10">
+                    <div class=" paddings col-md-offset-1 col-md-10 col-sm-5 col-sm-offset-1">
                         <div class="col-md-4 entity">
                             <img style="vertical-align:middle" src="./images/01/01_icon-1.png" class="icon">
                             <div class="iconLabel">DESIGN</div>
@@ -87,9 +86,8 @@
                             <div class="iconLabel threeLine" style="/* margin-top:0.4em */">OPERATION <br>AND<br> MAINTENANCE</div>
                         </div>
                     </div>
-                </div>
-                <div class="row" style="margin-top:150px;padding-bottom: 170px;">
-                    <div class="col-md-offset-1 col-md-10">
+                <div class="justify row" style="margin-top:230px;padding-bottom: 80px;">
+                    <div class="col-md-offset-1 col-md-10 col-sm-5 col-sm-offset-1">
                         <div class="col-md-4 entity">
                             <img src="./images/01/01_icon-4.png" class="icon">
                             <div class="iconLabel">TRAINING</div>
@@ -105,42 +103,62 @@
                     </div>
                 </div>
             </div>
-            <div style="position:relative;width: 100vw;height: 50vh;">
+            <div class='bptechpic' style="position:relative;width: 100vw;height: 50vh;">
                 <img src="./images/01/LO_1_logo.png" style="position:absolute;z-index:4;width: 100%;padding-top: 2em;">
                 <img style="filter: brightness(70%);width:inherit;height:inherit;" src="./images/01/LO_1_picture.png">
             </div>
-        <div class="container-fluid">
+        <div>
             <div class="row">
                 <div class="partnerTitle">OUR AWESOME PARTNERS</div>
             </div>
-            <div class="row" style="text-align:center; margin-bottom:5em">
-                <img class="partnerPics" src="./images/01/logo-1.png">
-                <img class="partnerPics" style="max-width: 18em;" src="./images/01/logo-2.png">
-                <img class="partnerPics" src="./images/01/logo-3.png">
-                <img class="partnerPics" src="./images/01/logo-4.png">
-                <img class="partnerPics" src="./images/01/logo-5.png">
+            <div class='webPartners'>
+                <div class="row" style="text-align:center; margin-bottom:5em">
+                    <img class="partnerPics" src="./images/01/logo-1.png">
+                    <img class="partnerPics" id='huawei' style="max-width: 18em;" src="./images/01/logo-2.png">
+                    <img class="partnerPics" src="./images/01/logo-3.png">
+                    <img class="partnerPics" src="./images/01/logo-4.png">
+                    <img class="partnerPics" src="./images/01/logo-5.png">
+                </div>
+                <div class="row" style="text-align:center; padding-bottom: 10em">
+                    <img class="partnerPics" src="./images/01/logo-6.png">
+                    <img class="partnerPics" src="./images/01/logo-7.png">
+                    <img class="partnerPics" id='siemens' style="min-width: 28em;" src="./images/01/logo-8.png">
+                    <img class="partnerPics" src="./images/01/logo-9.png">
+                </div>
             </div>
-            <div class="row" style="text-align:center; padding-bottom: 10em">
-                <img class="partnerPics" src="./images/01/logo-6.png">
-                <img class="partnerPics" src="./images/01/logo-7.png">
-                <img class="partnerPics" style="min-width: 28em;" src="./images/01/logo-8.png">
-                <img class="partnerPics" src="./images/01/logo-9.png">
+            <div class='mobilePartners'>
+                <div class="row" style="text-align:center; margin-bottom:5em">
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-1.png"></div>
+                    <div class='col-sm-4'><img class="partnerPics" id='huawei' style="max-width: 18em;" src="./images/01/logo-2.png"></div>
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-3.png"></div>
+                </div>
+                <div class="row" style="text-align:center; padding-bottom: 10em">
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-4.png"></div>
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-5.png"></div>
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-6.png"></div>
+                </div>
+                <div class="row" style="text-align:center; padding-bottom: 10em">
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-7.png"></div>
+                    <div class='col-sm-4'><img class="partnerPics" id='siemens' style="min-width: 28em;" src="./images/01/logo-8.png"></div>
+                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-9.png"></div>
+                </div>
+
             </div>
         </div>
-        <div class="col-md-12" style="background-color:#303030;padding: 6.1em;">
-            <div class="col-md-offset-2 col-md-4">
+        <div  class="footer col-md-12" style="background-color:#303030;padding: 6.1em;">
+            <div class="col-md-8 col-lg-offset-0 col-lg-7">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-sm-6">
                         <h5 style="font-family:RSU_Regular;color: white;padding: 0.8em;font-size: 1.9em;padding-top: 0;">OUR LOCATION</h5>
                         <img src="./images/01/01_map.png" style="width: 100%;">
                     </div>
-                    <div class="col-md-4">
-                            <div style="position:relative;top: 8em;">
+                    <div class="col-md-4 col-sm-6">
+                            <div class='contacts' style="position:relative;top: 8em;">
                                 <div class="addressText" style="color:#56BA39">K.K.Energy.CO.,LTD</div>
                                 <div class="addressText">207 soi Sukhumvit93, Bangchak <br>
                                      Phra Khanong Bangkok 10260
                                 </div>
-                                <div class="col-md-2 addressText" style="padding-left:0">
+                                <div class="col-md-2 col-sm-2 addressText" style="padding-left:0">
                                     <i class="fa fa-phone" style="font-size: 1.9em;"></i>
                                     <br>
                                     <br>
@@ -150,7 +168,7 @@
                                     <br>
                                     LineID:
                                 </div>
-                                <div class="col-md-10 addressText" style="padding-left:1.9em">
+                                <div class="col-md-10 col-sm-10 addressText" style="padding-left:1.9em">
                                     +66 (0) 2 742 6955 <br>
                                     +66 (0) 2 742 6955 <br>
                                     +66 (0) 2 742 6955 <br>
@@ -161,10 +179,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="addressText" style="padding-left: 13em; margin-top: 1.5em">
+            <div class="col-md-4 col-lg-4">
+                <div id='about' class="addressText" style="padding-left: 13em; margin-top: 1.5em">
                     <div style="font-family:RSU_Regular; margin-bottom:1.5em; font-size:1.8em">ABOUT</div>
-                    <div style="color:#65B938; width:30.3em; text-align:justify">
+                    <div id='aboutText' style="color:#65B938; width:30.3em; text-align:justify">
                             KK Energy, a Thailand-based company, is the pioneer in providing
                             energy-efficient solutions to industries and business in Thailand.
                             We provide our complete solution services through two main products:
