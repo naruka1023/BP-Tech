@@ -35,8 +35,8 @@
         </div>
         <div class="border"></div>
         <div class='outerframe' style="margin: 0px 30em 10em 30em;">
-                <div class="title" style="font-family:Tw Cen MT Bold;margin-top: 2em;margin-bottom:0.2em;font-size: 2.3em;">AUTOMATED PRODUCTION PROCESS DESIGN</div>
-                <div style="font-family:RSU_Regular;font-size: 1.5em;margin-bottom: 110px;text-align:center;">รับออกแบบระบบการผลิตสินคา ทั้งแบบตอเนื่อง และ ไมตอเนื่อง</div>
+                <div id='automatedTitle' class=" title" style="font-family:Tw Cen MT Bold;margin-top: 2em;margin-bottom:0.2em;font-size: 2.3em;">AUTOMATED PRODUCTION PROCESS DESIGN</div>
+                <div id='automatedLabel' style="font-family:RSU_Regular;font-size: 1.5em;margin-bottom: 110px;text-align:center;">รับออกแบบระบบการผลิตสินคา ทั้งแบบตอเนื่อง และ ไมตอเนื่อง</div>
             <div class='ovtl' style="text-align:center">
                 <div style="margin:auto">
                     <img  class='appdPic' style="width: 350px;" src="./images/03/03_picture-design-1.jpg">
@@ -46,8 +46,8 @@
             </div>
         </div>
         <div id='paddingOffset' style="padding:13em; background-color:#E5E5E5">
-                <div class="title" style="font-family:Tw Cen MT Bold;margin-top: 2em;margin-bottom:0.2em;font-size: 2.3em;">MACHINE-LEARNING DESIGN</div>
-                <div style="font-family:RSU_Regular;font-size: 1.5em;margin-bottom: 110px;text-align:center;">รับออกแบบ และ ผลิต ซอฟแวร เพื่อใชในการสรางระบบเครื่องจักรเรียนรูดวยตนเอง</div>
+                <div id='automatedTitle' class="title" style="font-family:Tw Cen MT Bold;margin-top: 2em;margin-bottom:0.2em;font-size: 2.3em;">MACHINE-LEARNING DESIGN</div>
+                <div id='automatedLabel' style="font-family:RSU_Regular;font-size: 1.5em;margin-bottom: 110px;text-align:center;">รับออกแบบ และ ผลิต ซอฟแวร เพื่อใชในการสรางระบบเครื่องจักรเรียนรูดวยตนเอง</div>
             <div style="display: flex;margin: auto;justify-content: space-between;">
                 <div id='paddingImage' style="text-align: center;margin:auto;">
                     <img id='mldpic' class='appdPic' style="width: 50%;" src="./images/04/04_picture-2.jpg">
@@ -81,19 +81,19 @@
             </div>
             <div class='mobilePartners'>
                 <div class="row" style="text-align:center; margin-bottom:5em">
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-1.png"></div>
-                    <div class='col-sm-4'><img class="partnerPics" id='huawei' style="max-width: 18em;" src="./images/01/logo-2.png"></div>
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-3.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-1.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" id='huawei' style="max-width: 18em;" src="./images/01/logo-2.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-3.png"></div>
                 </div>
                 <div class="row" style="text-align:center; padding-bottom: 10em">
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-4.png"></div>
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-5.png"></div>
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-6.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-4.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-5.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-6.png"></div>
                 </div>
                 <div class="row" style="text-align:center; padding-bottom: 10em">
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-7.png"></div>
-                    <div class='col-sm-4'><img class="partnerPics" id='siemens' style="min-width: 28em;" src="./images/01/logo-8.png"></div>
-                    <div class='col-sm-4'><img class="partnerPics" src="./images/01/logo-9.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-7.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" id='siemens' style="min-width: 28em;" src="./images/01/logo-8.png"></div>
+                    <div class='col-sm-4 col-xs-4'><img class="partnerPics" src="./images/01/logo-9.png"></div>
                 </div>
 
             </div>
@@ -101,17 +101,17 @@
         <div  class="footer col-md-12" style="background-color:#303030;padding: 6.1em;">
             <div class="col-md-8 col-lg-offset-0 col-lg-7">
                 <div class="row">
-                    <div class="col-md-8 col-sm-6">
-                        <h5 style="font-family:RSU_Regular;color: white;padding: 0.8em;font-size: 1.9em;padding-top: 0;">OUR LOCATION</h5>
+                    <div class="col-md-8 col-sm-6 col-xs-6">
+                        <h5 id='ourLocation' style="font-family:RSU_Regular;color: white;padding: 0.8em;font-size: 1.9em;padding-top: 0;">OUR LOCATION</h5>
                         <img src="./images/01/01_map.png" style="width: 100%;">
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class='contacts' style="position:relative;top: 8em;">
                                 <div class="addressText" style="color:#56BA39">K.K.Energy.CO.,LTD</div>
                                 <div class="addressText">207 soi Sukhumvit93, Bangchak <br>
-                                     Phra Khanong Bangkok 10260
+                                        Phra Khanong Bangkok 10260
                                 </div>
-                                <div class="col-md-2 col-sm-2 addressText" style="padding-left:0">
+                                <div class="col-md-2 col-sm-2 col-xs-2 addressText" style="padding-left:0">
                                     <i class="fa fa-phone" style="font-size: 1.9em;"></i>
                                     <br>
                                     <br>
@@ -121,7 +121,7 @@
                                     <br>
                                     LineID:
                                 </div>
-                                <div class="col-md-10 col-sm-10 addressText" style="padding-left:1.9em">
+                                <div class="col-md-10 col-sm-10 col-xs-10 addressText" style="padding-left:1.9em">
                                     +66 (0) 2 742 6955 <br>
                                     +66 (0) 2 742 6955 <br>
                                     +66 (0) 2 742 6955 <br>
@@ -150,7 +150,7 @@
                 </div>
             </div>
         </div>
-            <div class="col-md-12" style="background: -webkit-linear-gradient(#67BC3C , #00A846); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: calibri; margin: 60px; font-size: 1.5em; text-align: center;">COPYRIGHT © 2018 KKENERGY.CO.TH, ALL RIGHTS RESERVED.</div>
+        <div id='footerText' class="col-md-12" style="background: -webkit-linear-gradient(#67BC3C , #00A846); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: calibri; margin: 60px; font-size: 1.5em; text-align: center;">COPYRIGHT © 2018 KKENERGY.CO.TH, ALL RIGHTS RESERVED.</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script>

@@ -53,7 +53,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 9;
     top: 0;
     left: 0;
     background-color: ghostwhite;
@@ -451,5 +451,103 @@ body{
         top:37%;
         left:29%;
         font-size:2.5em
+    }
+}
+@media screen and (max-width: 425px) {
+    .title{
+        margin: 1em 0 !important;
+        font-size: 1.8em !important;
+    }
+    .iconLabel{
+        padding: unset !important;
+        margin-left: 1.2em;
+    }
+    .threeLine{
+        margin-top:0.2em
+    }
+    .justify div div{
+        padding-bottom: 21px !important
+    }
+    .addressText{
+        font-size:0.45em
+    }
+    .justify{
+        padding-bottom:0px !important
+    }
+    #bpTech{
+        padding-top:3em !important
+    }
+    .partnerPics{
+        max-width: 8.8em !important;
+        padding: 0px 14.4px !important
+    }
+    #huawei{
+        max-width:6.4em !important
+    }
+    #ourLocation{
+        padding-left:0 !important;
+        font-size:1.1em !important
+    }
+    #footerText{
+        font-size:1.2em !important
+    }
+    .energyLabel{
+        font-size: 1.2em !important;
+        margin-bottom: 1.6em !important;
+    }
+    #about{
+        margin-top: 5em !important;
+    }
+    .contacts{
+        top:2.5em !important
+    }
+    .titleGreen{
+        font-size:1.4em !important
+    }
+    #energyManagementLabel{
+        top: 29% !important;
+        left: 11.6% !important;
+    }
+    #energyFirstLabel{
+        margin-bottom:36.3px !important;
+        font-size:0.8em !important
+    }
+    #energyLabel{
+        left:26.3% !important
+    }
+    #shiftedFrame{
+        margin-left: 2.5em !important;
+        width:unset !important
+    }
+    .elSec{
+        width:330px !important;
+        font-size: 1em !important;
+    }
+    #automatedTitle{
+        margin: 1.4em 0 !important;
+        font-size: 1.2em !important;
+    }
+    #automatedLabel{
+        margin-bottom:60px !important;
+        font-size:0.8em !important
+    }
+    .partnerTitle{
+        margin-top:unset !important;
+        margin-bottom:unset !important;
+        margin: 2em 0 !important; 
+        font-size: 1.8em !important
+    }
+    #automationText{
+        top:38% !important;
+        left:11.2% !important
+    }
+    .title{
+        font-size:1.2em 0 !important
+    }
+    #securityLabel{
+        left:18.3% !important
+    }
+    .borderLaptop{
+        display:none
     }
 }
