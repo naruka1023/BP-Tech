@@ -270,6 +270,9 @@ body{
     .navigation{
         font-size:0.6em
     }
+    .bptechpic{
+        height: 28vh !important
+    }
     #energyManagementLabel{
         top:37% !important;
         left:31.6% !important
