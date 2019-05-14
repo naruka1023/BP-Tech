@@ -13,14 +13,22 @@
 .navigationMobile{
     display:none
 }
+.securityLabel{
+    width:40px;
+    text-align:center;
+}
+.securityLabel{
+    width: 400px !important;
+    margin-left: -200px !important;
+}
 .map{
     position:relative;
     background-image:url(images/00/00_illus-0.jpg);
     height:687px;
 }
 @font-face {
-    font-family:'Tw Cen MT Bold';
-    src: url('fonts/Tw Cen MT Bold.ttf');
+    font-family:'Tw Cen MT';
+    src: url('fonts/Tw Cen MT.ttf');
 }
 @font-face {
     font-family:'RSU_Regular';
@@ -38,16 +46,13 @@
     font-family:'ElectroShackle';
     src: url('fonts/Electro Shackle.otf');
 }
+.navigation{
+    font-family:'Tw Cen MT';
+}
 #energyManagementLabel{
-    font-family: 'ElectroShackle';
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    left: 39%;
-    color: white;
-    font-size: 3em;
-    letter-spacing: 0.2em;
-    z-index:5;
+    width:500px !important;
+    margin-left:-250px;
+    top:40% !important
 }
 .sidenav {
     height: 100%;
@@ -114,8 +119,34 @@
     background-image: linear-gradient(to right, #67BC3C , #00A846);
     padding: 12px;
 }
+.centerLine{
+    position:absolute;
+    color:red;
+    width:3vw;
+    height:fit-content;
+    top:0;
+    left:50%;
+    margin-left:-1.5vw
+}
+#automationText{
+    width:355px;
+    margin-left:-177.5px !important
+}
+.titleDiv{
+    font-family: eurostile san-serif;
+    color: white;
+    text-align:center;
+    position: absolute;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    z-index:5;
+    width: 100px;
+    top: 45%;
+    left: 50%;
+    margin-left: -100px;
+}
 .title{
-    font-family: 'ElectroShackle';
+    font-family: eurostile, sans-serif;
     text-align: center;
     margin: 1.5em 0 1.4em 0;
     font-size: 4.4em;
