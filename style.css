@@ -3,7 +3,10 @@
       width: 100vw;
     }
 } */
-
+.row{
+    margin-left: unset !important;
+    margin-right:unset !important
+}
 .addressText{
     font-family: 'calibri';
     color: white;
@@ -298,19 +301,14 @@ body{
         width: 19.6em !important;
         font-size: 1em !important;
     }
+    .footer{
+        padding:2.1em !important
+    }
     .navigation{
         font-size:0.6em
     }
     .bptechpic{
         height: 28vh !important
-    }
-    #energyManagementLabel{
-        top:37% !important;
-        left:31.6% !important
-    }
-    #automationText{
-        top: 45% !important;
-        left: 33.5% !important;
     }
     #energyLabel{
         top:41%;
@@ -344,6 +342,9 @@ body{
     #firstImage{
         width:100%;
         position:unset
+    }
+    #energyManagementLabel{
+        top:36% !important
     }
     .laptopMap{
         display:unset !important
@@ -433,9 +434,6 @@ body{
     .something2{
         margin-top:1em !important 
     }
-    .mainImage{
-        height:32vh !important
-    }
     #energyLabel{
         top: 39% !important;
         left: 37% !important;
@@ -477,17 +475,20 @@ body{
         width:100% !important;
         padding-right: 40px
     }
-    #automationText{
-        left:30.2% !important;
-        right:38% !important
-    }
     #energyManagementLabel{
-        top:37%;
-        left:29%;
         font-size:2.5em
     }
 }
 @media screen and (max-width: 425px) {
+    #energyManagementLabel{
+        font-size:1.5em !important
+    }
+    #automationText{
+        font-size:2.5em !important
+    }
+    .titleDiv{
+        top:36%
+    }
     .title{
         margin: 1em 0 !important;
         font-size: 1.8em !important;
@@ -538,10 +539,6 @@ body{
     .titleGreen{
         font-size:1.4em !important
     }
-    #energyManagementLabel{
-        top: 29% !important;
-        left: 11.6% !important;
-    }
     #energyFirstLabel{
         margin-bottom:36.3px !important;
         font-size:0.8em !important
@@ -570,10 +567,6 @@ body{
         margin-bottom:unset !important;
         margin: 2em 0 !important; 
         font-size: 1.8em !important
-    }
-    #automationText{
-        top:38% !important;
-        left:11.2% !important
     }
     .title{
         font-size:1.2em 0 !important
