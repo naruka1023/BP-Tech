@@ -239,9 +239,9 @@ body{
     .mobilePartners{
         display: unset !important
     }
-    .navigation{
+    /* .navigation{
         font-size:0.8em
-    }
+    } */
     .map{
         display:none
     }
@@ -305,7 +305,7 @@ body{
         padding:2.1em !important
     }
     .navigation{
-        font-size:0.6em
+        font-size:0.8em
     }
     .bptechpic{
         height: 28vh !important
@@ -328,14 +328,38 @@ body{
         margin:0px 11em 10em 11em !important
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px){
+    .justify{
+        margin-top: unset !important
+    }
+    .entity{
+        margin-bottom:30px
+    }
+}
+@media screen and (max-width: 990px){
     .navigationMobile{
         display:unset !important;
         padding-right: 1em;
-    
+    }
+    .navigation{
+        display:none !important
+    }
+    .heading{
+        padding: 2em 0 !important;
+    }
+    .logo{
+        width: 38% !important
+    }
+}
+@media screen and (max-width: 800px) {
+    #ourLocation{
+        padding-left: 0 !important
+    }
+    #locationDiv{
+        padding-left: unset !important
     }
     #aboutText{
-        width: 34.5em !important;
+        width: 75vw !important;
         font-size: 1.1em !important;
     
     }
@@ -442,7 +466,7 @@ body{
         top:3.5em !important
     }
     .bptechpic{
-        height:24vh !important
+        height:22vh !important
     }
     .imageset div img{
         width:100% !important
@@ -453,9 +477,6 @@ body{
     .outerframe{
         margin:unset !important;
         margin-bottom:30px !important
-    }
-    .navigation{
-        display:none !important
     }
     .mobilePartners div{
         margin-bottom: unset !important;
@@ -478,6 +499,7 @@ body{
     #energyManagementLabel{
         font-size:2.5em
     }
+   
 }
 @media screen and (max-width: 425px) {
     #energyManagementLabel{
@@ -496,6 +518,7 @@ body{
     .iconLabel{
         padding: unset !important;
         margin-left: 1.2em;
+        font-size:0.6em !important
     }
     .threeLine{
         margin-top:0.2em
@@ -512,19 +535,22 @@ body{
     #bpTech{
         padding-top:3em !important
     }
+    .bptechpic{
+        height:18vh !important
+    }
     .partnerPics{
         max-width: 8.8em !important;
-        padding: 0px 14.4px !important
+        padding: 0px 16px !important
     }
     #huawei{
         max-width:6.4em !important
     }
     #ourLocation{
-        padding-left:0 !important;
         font-size:1.1em !important
     }
     #footerText{
-        font-size:1.2em !important
+        font-size:0.8em !important;
+        margin:20px !important
     }
     .energyLabel{
         font-size: 1.2em !important;
@@ -576,5 +602,19 @@ body{
     }
     .borderLaptop{
         display:none
+    }
+}
+@media screen and (max-width: 375px) {
+    .footer{
+        padding: 20px !important
+    }
+    .iconLabel{
+        font-size:0.6em !important
+    }
+    .bptechpic{
+        height:18vh !important
+    }
+    .partnerPics{
+        max-width:7.8em !important
     }
 }
