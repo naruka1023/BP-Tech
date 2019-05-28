@@ -13,9 +13,13 @@
     font-size: 0.85em;
     line-height: 1.7em;
 }
+.paddings{
+    padding-bottom:9em
+}
 .navigationMobile{
     display:none
 }
+
 .securityLabel{
     width:40px;
     text-align:center;
@@ -32,6 +36,10 @@
 @font-face {
     font-family:'Tw Cen MT';
     src: url('fonts/Tw Cen MT.ttf');
+}
+@font-face {
+    font-family:'eurostile';
+    src: url('fonts/Eurostile.ttf');
 }
 @font-face {
     font-family:'RSU_Regular';
@@ -51,6 +59,9 @@
 }
 .navigation{
     font-family:'Tw Cen MT';
+}
+#locationDiv img{
+    width:93%
 }
 #energyManagementLabel{
     width:500px !important;
@@ -135,21 +146,25 @@
     width:355px;
     margin-left:-177.5px !important
 }
+.oneLiner{
+    top:45% !important;
+}
 .titleDiv{
-    font-family: eurostile san-serif;
+    font-family: eurostile;
     color: white;
-    text-align:center;
+    text-align: center;
+    font-weight:bold;
     position: absolute;
-    font-size: 3em;
+    font-size: 5em;
     letter-spacing: 0.2em;
-    z-index:5;
-    width: 100px;
-    top: 45%;
+    z-index: 5;
+    width: 100%;
+    top: 35%;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -50%;
 }
 .title{
-    font-family: eurostile, sans-serif;
+    font-family: eurostile;
     text-align: center;
     margin: 1.5em 0 1.4em 0;
     font-size: 4.4em;
@@ -222,7 +237,18 @@ body{
 .mainLabel{
     font-size:2em !important
 }
+.footer{
+    padding: 6em 12em
+}
+@media screen and (max-width:1440px){
+    .footer{
+        padding:6.1em !important
+    }
+}
 @media screen and (max-width:1440px) and (min-width: 800px){
+    .contacts{
+        top:5em !important
+    }
     #firstImage{
         width:100%;
         position:unset
@@ -297,6 +323,9 @@ body{
     }
 }
 @media screen and (max-width: 1024px) {
+    #locationDiv img{
+        width:100%%
+    }
     #aboutText{
         width: 19.6em !important;
         font-size: 1em !important;
@@ -502,6 +531,16 @@ body{
    
 }
 @media screen and (max-width: 425px) {
+    .titleDiv{
+        font-size:1.6em !important
+    }
+    .oneLiner{
+        font-size:2em  !important
+    }
+    .paddings{
+        margin-left:8vw;
+        padding-bottom:unset !important
+    }
     #energyManagementLabel{
         font-size:1.5em !important
     }
@@ -608,6 +647,9 @@ body{
     .footer{
         padding: 20px !important
     }
+    .justify div div {
+        padding-bottom: 14px !important;
+    }
     .iconLabel{
         font-size:0.6em !important
     }
@@ -616,5 +658,11 @@ body{
     }
     .partnerPics{
         max-width:7.8em !important
+    }
+    .titleDiv{
+        font-size:1.4em !important
+    }
+    .oneLiner{
+        font-size:1.7em  !important
     }
 }
