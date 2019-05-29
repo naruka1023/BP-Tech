@@ -240,6 +240,11 @@ body{
 .footer{
     padding: 6em 12em
 }
+@media screen and (max-width: 1800px) and (min-width:1440px){
+    .outerframe{
+        margin:0px 15em 10em 15em !important
+    }
+}
 @media screen and (max-width:1440px){
     .footer{
         padding:6.1em !important
@@ -303,7 +308,7 @@ body{
         font-size:1.2em !important
     }
     .energyLabel2{
-        font-size:0.8em !important
+        font-size:1.3em !important
     }
     .elSec{
         font-size:1.1em !important
@@ -322,9 +327,15 @@ body{
         font-size:1.2em !important
     }
 }
+@media screen and (max-width: 1300px){
+    .outerframe{
+        margin: 10em 3em !important; 
+        margin-top:0px !important; 
+    }
+}
 @media screen and (max-width: 1024px) {
     #locationDiv img{
-        width:100%%
+        width:100%
     }
     #aboutText{
         width: 19.6em !important;
@@ -354,7 +365,14 @@ body{
         font-size:1em !important
     }
     .outerframe{
-        margin:0px 11em 10em 11em !important
+        margin: 10em 3em !important; 
+        margin-top:0px !important; 
+    }
+    .outerframeEM{
+        margin: 10em 13em !important; 
+    }
+    .partnerPics{
+        max-width:19em !important
     }
 }
 @media screen and (max-width: 1000px){
@@ -381,6 +399,15 @@ body{
     }
 }
 @media screen and (max-width: 800px) {
+    .appdPic{
+        padding-right:unset !important
+    }
+    .titleDiv{
+        font-size:3em !important
+    }
+    .atDiv{
+        width:70vw !important
+    }
     #ourLocation{
         padding-left: 0 !important
     }
@@ -409,7 +436,7 @@ body{
         display:unset;
     }
     .partnerPics{
-        max-width:15em;
+        max-width:15em !important;
         padding: 0 25px
     }
     #atLabel{
@@ -417,9 +444,6 @@ body{
     }
     .securityQuickFix{
         font-size:1.2em
-    }
-    .atPic{
-        padding-right:0px;
     }
     #innerFrame{
         padding:40px !important
@@ -431,8 +455,8 @@ body{
         display:none
     }
     .ovtl{
-        margin-left:40px !important;
-        text-align:unset !important;
+        width: 70vw;
+        margin: auto;
     }
     #paddingOffset{
         padding:unset !important;
@@ -530,7 +554,18 @@ body{
     }
    
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px){
+    .partnerPics {
+        max-width: 9.6em !important;
+        padding: 0 8px
+    }
+}
+@media screen and (max-width: 550px){
+    .partnerTitle{
+        font-size:2.2em;
+    }
+}
+@media screen and (max-width: 432px) {
     .titleDiv{
         font-size:1.6em !important
     }
@@ -664,5 +699,11 @@ body{
     }
     .oneLiner{
         font-size:1.7em  !important
+    }
+}
+@media screen and (max-width: 320px){
+    .partnerPics{
+        max-width: 6.4em !important;
+        padding: 0px 6.8px !important;
     }
 }
