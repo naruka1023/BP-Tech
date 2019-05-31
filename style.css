@@ -242,7 +242,10 @@ body{
 }
 @media screen and (max-width: 1800px) and (min-width:1440px){
     .outerframe{
-        margin:0px 15em 10em 15em !important
+        margin: 0px 25em 10em 25em !important
+    }
+    #bpTech{
+        padding-top:7em !important
     }
 }
 @media screen and (max-width:1440px){
@@ -329,13 +332,16 @@ body{
 }
 @media screen and (max-width: 1300px){
     .outerframe{
-        margin: 10em 3em !important; 
+        margin:10em 16em !important;
         margin-top:0px !important; 
     }
 }
 @media screen and (max-width: 1024px) {
     #locationDiv img{
         width:100%
+    }
+    #bpTech{
+        padding-top:2em !important
     }
     #aboutText{
         width: 19.6em !important;
@@ -398,6 +404,11 @@ body{
         width: 38% !important
     }
 }
+@media screen and (max-width: 850px){
+    .outerframeEM{
+        margin: 10em 10em !important;
+    }
+}
 @media screen and (max-width: 800px) {
     .appdPic{
         padding-right:unset !important
@@ -417,7 +428,7 @@ body{
     #aboutText{
         width: 75vw !important;
         font-size: 1.1em !important;
-    
+        
     }
     #firstImage{
         width:100%;
@@ -498,7 +509,7 @@ body{
         justify-content:unset !important
     }
     .imageset .image{
-        margin: 0 40px
+        margin: 0 20px
     }
     .footer{
         padding:40px !important;
@@ -566,6 +577,13 @@ body{
     }
 }
 @media screen and (max-width: 432px) {
+    .imageset .image{
+        margin: 0 auto !important
+    }
+    .imageset .imageE{
+        margin: 0 20px !important
+    }
+    
     .titleDiv{
         font-size:1.6em !important
     }
@@ -654,6 +672,9 @@ body{
         width:330px !important;
         font-size: 1em !important;
     }
+    .HS{
+        width:unset !important
+    }
     #automatedTitle{
         margin: 1.4em 0 !important;
         font-size: 1.2em !important;
@@ -682,6 +703,12 @@ body{
     .footer{
         padding: 20px !important
     }
+    .elSec {
+        width: 250px!important;
+    }
+    .HS{
+        width: unset !important
+    }
     .justify div div {
         padding-bottom: 14px !important;
     }
@@ -699,6 +726,9 @@ body{
     }
     .oneLiner{
         font-size:1.7em  !important
+    }
+    #bpTech {
+        padding-top: 3.5em !important;
     }
 }
 @media screen and (max-width: 320px){
