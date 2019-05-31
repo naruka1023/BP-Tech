@@ -340,6 +340,12 @@ body{
     #locationDiv img{
         width:100%
     }
+    #huawei{
+        max-width: 14em !important;
+    }
+    #siemens{
+        min-width:15em !important
+    }
     #bpTech{
         padding-top:2em !important
     }
